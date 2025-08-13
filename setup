@@ -2,7 +2,7 @@ echo "Installing git..."
 sudo apt-get update > /dev/null
 sudo apt-get install -y git > /dev/null
 
-echo "Cloning stable OMAKUB-WSL..."
-git clone -b stable https://github.com/JackSetaro/omakub-wsl.git ~/.local/share/omakub-wsl > /dev/null
+echo "Cloning main OMAKUB-WSL..."
+git clone -b main https://github.com/JackSetaro/omakub-wsl.git ~/.local/share/omakub-wsl > /dev/null
 
 source ~/.local/share/omakub-wsl/install.sh
