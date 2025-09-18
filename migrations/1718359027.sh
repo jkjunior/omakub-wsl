@@ -2,4 +2,3 @@
 
 # Add new applications
 source $OMAKUB_PATH/install/app-fastfetch.sh
-source $OMAKUB_PATH/install/flatpak.sh
